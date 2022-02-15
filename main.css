@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 47, 255, 0.5), rgba(219, 219, 228, 0.5), rgba(231, 4, 4, 0.5)), url('xox.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Shizuru', cursive;
+    color: greenyellow;
+}
+.btn{
+    background: linear-gradient(rgba(0, 47, 255, 0.9), rgba(219, 219, 228, 0.5), rgba(231, 4, 4, 0.9));
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
+.info{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.info h2{
+    text-shadow: 0 0 5px black;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.container{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    margin: 100px auto 20px;
+    box-shadow: 0 0 30px black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cube{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px black;
+    font-size: 120px;
+    cursor: pointer;
+    user-select: none;
+}
